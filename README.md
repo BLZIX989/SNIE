@@ -1,11 +1,5 @@
 # Project Gamma Run Sheet
 
-Run everything from the project root:
-
-```bash
-cd "/Users/keithblaze/Desktop/ChatGPT/Project Gamma"
-source .venv/bin/activate
-```
 
 ## Core Workflow
 
