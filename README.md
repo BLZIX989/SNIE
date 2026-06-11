@@ -1,39 +1,134 @@
-# Project Gamma Infrastructure Intelligence Terminal
+# Project Gamma Run Sheet
 
-This workspace currently contains a rebuilt single-file Gamma terminal scaffold in [Project Gamma Topolgy v3.py](Project%20Gamma%20Topolgy%20v3.py).
-
-## What it provides
-
-- Live FastAPI app with HTML dashboard
-- Gamma state-space map with dynamic zones
-- Historical trajectory replay
-- Structural invariant monitor
-- Thesis intelligence and validation layers
-- Reachability, attractor, and dependency endpoints
-- Architecture contract endpoint for downstream platformization
-
-## Run
+Run everything from the project root:
 
 ```bash
-python3 "Project Gamma Topolgy v3.py"
+cd "/Users/keithblaze/Desktop/ChatGPT/Project Gamma"
+source .venv/bin/activate
 ```
 
-If `uvicorn` is installed, the app starts on `http://127.0.0.1:8000`. Otherwise the module prints a JSON summary.
-
-## Dependencies
-
-Install from `requirements.txt` if you want the live terminal server:
+## Core Workflow
 
 ```bash
-pip install -r requirements.txt
+python universe_builder.py
+python "Topology/Graphs/Project Gamma v2.py" BLIND
+python snie_gamma_monitor.py
+python 4D_LifeCycle.py
+python snie_tech_forecast.py
 ```
 
-## Next phase
+## Monitor Commands
 
-The next rebuild step is to split this scaffold into a proper multi-file service layout with:
+```bash
+python snie_gamma_monitor.py EXPLAIN TICKER
+python snie_gamma_monitor.py LOG "note"
+python snie_gamma_monitor.py REVIEW
+python snie_gamma_monitor.py MACRO
+python snie_gamma_monitor.py ALERT
+python snie_gamma_monitor.py DELTA
+python snie_gamma_monitor.py COMPARE TICKER1 TICKER2
+python snie_gamma_monitor.py THESIS
+python snie_gamma_monitor.py FACTORCORR
+python snie_gamma_monitor.py SURVIVORS
+python snie_gamma_monitor.py CONFIDENCE
+python snie_gamma_monitor.py SCENARIO TICKER scenario_key
+python snie_gamma_monitor.py LIFECYCLE
+python snie_gamma_monitor.py TIMELINE
+```
 
-- backend engine modules
-- FastAPI routers and schemas
-- frontend Next.js terminal UI
-- PostgreSQL persistence and migrations
-- live stream transport for snapshot updates
+## Universe Scaling
+
+Use one of these before running the monitor or lifecycle scripts:
+
+```bash
+SNIE_UNIVERSE_SIZE=100 python snie_gamma_monitor.py
+SNIE_UNIVERSE_SIZE=250 python snie_gamma_monitor.py
+SNIE_UNIVERSE_SIZE=500 python snie_gamma_monitor.py
+```
+
+Or point directly at a file:
+
+```bash
+SNIE_UNIVERSE_PATH="/full/path/to/universe.csv" python snie_gamma_monitor.py
+```
+
+## Topology Maps
+
+```bash
+python "Topology/Graphs/Project Gamma Topology 3.py"
+python "Topology/Graphs/Project Gamma Institutional Terminal.py"
+python "Topology/Graphs/Topology Tool/Project Gamma Topology 2.py"
+python "Topology/Graphs/Topology Tool/Project Gamma Topology.py"
+python "Topology/Graphs/Topology Tool/Expansion Frontier/Project Gamma Topolgy v3.py"
+python "Topology/Graphs/Topology Tool/Reachability Landscape/Project Gamma.py"
+```
+
+## Output Folders
+
+```text
+blind_test_runs/
+validation/
+universe/100/
+universe/250/
+universe/500/
+```
+
+## Research Protocol
+
+1. Build universe.
+2. Run BLIND test.
+3. Archive blind output.
+4. Do not modify rankings after generation.
+5. Track outcomes quarterly.
+6. Write postmortems before adjusting model weights.
+7. Never overwrite historical runs.
+
+## Current Model
+
+Version: Gamma v2
+
+Core Factors:
+- Criticality
+- Optionality
+- Monetization
+
+Classification System:
+- Substrate
+- Extractor
+- Frontier
+- Stable Regime
+
+Research Status:
+Prospective Validation Active
+
+## Validation Objectives
+
+Primary Question:
+
+Does the blind-ranking engine identify future
+infrastructure compounders better than random selection?
+
+Secondary Questions:
+
+- Does Criticality predict persistence?
+- Does Optionality predict future expansion?
+- Does Monetization predict value capture?
+- Does Composite Score outperform individual factors?
+
+Success is measured prospectively.
+No retrospective modifications allowed.
+
+## Known Risks
+
+- Sector concentration bias
+- Software overrepresentation
+- Survivorship bias
+- Proxy factor contamination
+- Market-cap leakage
+- Hindsight interpretation risk
+
+## Notes
+
+- `BLIND` saves each run to `blind_test_runs/blind_test_YYYY_MM_DD_HHMMSS.txt`.
+- Validation rows are appended to `validation/YYYY_Q#.csv`.
+- The ranking logic is unchanged; only the universe and logging layers scale.
