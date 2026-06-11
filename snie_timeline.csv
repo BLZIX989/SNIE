@@ -1,0 +1,116 @@
+Technology,Year,Gamma_2,Invariance,dI_dt,Density,True_Historical_Era
+Vacuum_Tube,1945,35.0,65.0,15.0,72.0,WWII Electronics Dominance
+Vacuum_Tube,1955,18.0,62.0,-5.0,85.0,Post-War Mature Incumbent
+Vacuum_Tube,1965,5.0,50.0,-15.0,32.0,Solid-State Displacement Phase
+Early_Transistor,1947,78.0,12.0,5.0,0.5,Bell Labs Inception
+Early_Transistor,1955,82.0,38.0,45.0,4.2,Silicon Metallurgy Ingress
+Early_Transistor,1965,92.0,85.0,78.0,62.0,Mass Mainframe Urbanization
+Early_Transistor,1975,95.0,95.0,22.0,96.0,Monolithic Substrate Capture
+Transportation_Horse,1900,5.0,88.0,0.0,92.0,Pre-Industrial Logistics Anchor
+Transportation_Horse,1910,2.0,85.0,-2.0,78.0,Urban Density Friction Limits
+Transportation_Horse,1920,0.0,70.0,-10.0,15.0,Rapid Agricultural Displacement
+Early_Automobile,1900,42.0,22.0,15.0,0.8,Horseless Carriage Custom Lab
+Early_Automobile,1910,58.0,48.0,62.0,12.5,Model T Assembly Line Ingress
+Early_Automobile,1920,72.0,88.0,84.0,75.0,Highway Infrastructure Deployment
+Early_Automobile,1930,85.0,95.0,25.0,98.0,Universal Industrial Substrate
+Film_Photography,1995,15.0,82.0,2.0,94.0,Silver-Halide Consumer Zenith
+Film_Photography,2005,5.0,65.0,-12.0,35.0,Digital Mega-Pixel Parity Shock
+Early_Digital_Sensor,1995,62.0,28.0,45.0,1.2,Niche Commercial Studio Backline
+Early_Digital_Sensor,2005,78.0,84.0,88.0,65.0,Mobile Integration Takeover Wave
+Steam_Engine_Marine,1820,65.0,15.0,5.0,0.2,Early Steamboat River Experiments
+Steam_Engine_Marine,1840,70.0,32.0,22.0,5.4,Transatlantic Iron Hull Implementation
+Steam_Engine_Marine,1865,85.0,78.0,65.0,72.0,Suez Canal Opening & Coaling Network
+Merchant_Sail_Ship,1820,10.0,75.0,2.0,95.0,Packet Ship Regular Schedule Zenith
+Merchant_Sail_Ship,1840,12.0,85.0,5.0,92.0,Clipper Ship Extreme Hull Optimization
+Merchant_Sail_Ship,1865,2.0,60.0,-10.0,25.0,Compound Steam Engine Displace Phase
+Freight_Railroad,1830,72.0,18.0,12.0,0.5,Early Locomotive Mineral Tracks
+Freight_Railroad,1850,88.0,52.0,68.0,42.0,Trunk Line Network Interconnection
+Freight_Railroad,1870,95.0,88.0,45.0,92.0,Transcontinental Golden Spike Zenith
+Commercial_Canal,1830,22.0,65.0,4.0,85.0,Erie Canal Expansion & Inland Monopoly
+Commercial_Canal,1850,10.0,55.0,-4.0,52.0,Rail Network Route Overlap Competition
+Commercial_Canal,1870,0.0,40.0,-15.0,8.0,Physical Bottleneck Gridlock Freeze
+Fractional_Electric_Motor,1895,78.0,22.0,18.0,0.2,Centralized Dynamo Plant Factory Test
+Fractional_Electric_Motor,1910,88.0,58.0,74.0,26.4,Unit-Drive Direct Machine Wiring
+Fractional_Electric_Motor,1925,95.0,92.0,42.0,88.0,Mass Factory Floor Reorganization
+Central_Steam_Plant,1895,25.0,68.0,2.0,92.0,Line-Shaft Mechanical Power Anchor
+Central_Steam_Plant,1910,12.0,60.0,-5.0,68.0,Friction Drag Overhead Efficiency Drain
+Central_Steam_Plant,1925,2.0,45.0,-18.0,12.0,Total Electric Grid Replacement Phase
+Integrated_Circuit,1960,82.0,15.0,22.0,0.1,Texas Instruments Monolithic Printing
+Integrated_Circuit,1968,92.0,52.0,85.0,32.4,Apollo Guidance Computer Deploy Wave
+Integrated_Circuit,1978,98.0,90.0,52.0,95.0,VLSI Microprocessor Substrate Capture
+Discrete_Transistor,1960,45.0,68.0,14.0,88.0,Consumer Pocket Radio Zenith
+Discrete_Transistor,1968,22.0,55.0,-8.0,52.0,Component Interconnection Wiring Choke
+Discrete_Transistor,1978,5.0,40.0,-22.0,12.0,Monolithic Logic Circuit Displacement
+Proprietary_SNA_Network,1981,30.0,62.0,5.0,82.0,IBM Enterprise Terminal Centralization
+Proprietary_SNA_Network,1991,12.0,50.0,-8.0,55.0,Closed Sandbox Architecture Friction
+Open_TCP_IP_Protocol,1981,85.0,40.0,42.0,0.5,ARPANET Standardization Milestone
+Open_TCP_IP_Protocol,1991,96.0,75.0,88.0,34.2,Commercial Backbone NSFNET Ingress
+Personal_Computer,1977,72.0,32.0,45.0,0.8,Apple II / Trinity Consumer Inception
+Personal_Computer,1987,88.0,64.0,76.0,42.0,Wintel Corporate Workspace Takeover
+Centralized_Mainframe,1977,24.0,65.0,2.0,92.0,IBM System/370 Enterprise Center
+Centralized_Mainframe,1987,10.0,55.0,-6.0,48.0,Client-Server Fractional Compute Drag
+Hyperscale_Cloud,2006,88.0,38.0,52.0,1.2,Amazon AWS Simple Storage Launch
+Hyperscale_Cloud,2016,96.0,82.0,85.0,68.0,Enterprise Infrastructure Migration Wave
+Local_PC_Server_Stack,2006,32.0,65.0,4.0,88.0,On-Premise Corporate Server Room
+Local_PC_Server_Stack,2016,10.0,45.0,-14.0,28.0,Physical Lifecycle Depreciation Drag
+Telegraph_Network,1850,55.0,28.0,15.0,1.2,Early Inter-City Morse Code Infrastructure
+Telegraph_Network,1870,72.0,65.0,45.0,68.0,Transatlantic Cable Consolidation Era
+Telegraph_Network,1890,20.0,55.0,-8.0,85.0,Tollbooth Processing of Commercial Traffic
+Telegraph_Network,1910,5.0,40.0,-25.0,22.0,Telephony Displacement & Protocol Decay
+Wired_Telephony,1890,68.0,34.0,25.0,0.8,Early Urban Manual Switchboard Inception
+Wired_Telephony,1910,82.0,62.0,58.0,45.0,Long-Lines Loading Coil Network Expansion
+Wired_Telephony,1930,92.0,88.0,32.0,88.0,Universal Monopolistic Substrate Capture
+Incandescent_Lighting,1885,62.0,22.0,35.0,0.4,Edison Carbon Filament Bamboo Bamboo Lab
+Incandescent_Lighting,1905,78.0,54.0,68.0,38.2,Tungsten Wire Vacuum Lamp Infrastructure
+Incandescent_Lighting,1925,85.0,85.0,22.0,92.0,Phoebus Cartel Global Standard Stabilization
+Gas_Lighting_Incumbent,1885,15.0,68.0,-2.0,94.0,Urban Pipeline Retort Plant Zenith
+Gas_Lighting_Incumbent,1905,5.0,55.0,-14.0,42.0,Localized Burner Mantle Efficiency Fight
+Gas_Lighting_Incumbent,1925,0.0,35.0,-28.0,4.2,Total Electric Filament Replacement Phase
+Commercial_Television,1948,58.0,35.0,28.0,0.6,Post-War Broadcast Transmitter Deployment
+Commercial_Television,1958,82.0,68.0,62.0,65.0,Mass Living Room Culture Colonization
+Commercial_Television,1978,88.0,85.0,15.0,94.0,Stabilized Consumer Media Substrate
+Commercial_Radio_Incumb,1948,30.0,75.0,2.0,92.0,Golden Age Network Audio Domination
+Commercial_Radio_Incumb,1958,12.0,65.0,-10.0,55.0,Visual Media Attention Capture Drainage
+Broadband_Fiber_Optic,1995,78.0,32.0,45.0,1.2,Early DWDM Telecom Backbone Testing Loop
+Broadband_Fiber_Optic,2005,94.0,78.0,84.0,55.0,Undersea Cable Core Internet Urbanization
+Dial_Up_Copper_Modem,1995,45.0,62.0,14.0,85.0,Consumer World Wide Web Gateway Zenith
+Dial_Up_Copper_Modem,2005,5.0,40.0,-26.0,12.0,Last-Mile Bandwidth Bottleneck Fracture
+Hydraulic_Fracking,2000,42.0,25.0,12.0,0.5,Early Barnett Shale Horizontal Test Wells
+Hydraulic_Fracking,2010,75.0,62.0,72.0,48.0,Unconventional Tight Oil Production Wave
+Hydraulic_Fracking,2020,82.0,85.0,18.0,82.0,Swing Producer Energy Infrastructure Base
+Vertical_Crude_Drilling,2000,24.0,68.0,4.0,92.0,Conventional Structural Trap Drilling Base
+Vertical_Crude_Drilling,2010,12.0,58.0,-6.0,52.0,Depletion Curve Production Decline Drag
+Containerized_Shipping,1956,72.0,22.0,35.0,0.2,Ideal-X Intermodal Crane Dock Experiment
+Containerized_Shipping,1972,88.0,68.0,74.0,58.0,Global Port Standardization Wave Ingress
+Containerized_Shipping,1988,95.0,92.0,32.0,95.0,Intermodal Supply Chain Monolith Anchor
+Break_Bulk_Cargo_Ships,1956,15.0,75.0,2.0,95.0,Manual Stevedore Waterfront Harbor Zenith
+Break_Bulk_Cargo_Ships,1972,2.0,45.0,-18.0,24.0,Pre-Standardized Crane Piece Turnover Drag
+Jet_Propulsion_Aviation,1945,74.0,18.0,42.0,0.5,Military Me-262 / Axial Compressor Test
+Jet_Propulsion_Aviation,1960,88.0,65.0,78.0,45.0,Boeing 707 Commercial Airway Colonization
+Piston_Engine_Aircraft,1945,32.0,75.0,5.0,95.0,Supercharged Radial Engine Technical Zenith
+Piston_Engine_Aircraft,1960,10.0,48.0,-16.0,28.0,High-Altitude Speed and Vibrational Ceiling
+Concorde_Supersonic,1969,82.0,52.0,45.0,0.5,Early Anglo-French Production Prototype Inception
+Concorde_Supersonic,1976,85.0,22.0,-14.0,5.2,Sonic Boom Ban Over Land & Oil Price Shock
+Concorde_Supersonic,1989,32.0,10.0,-28.0,0.8,Prestige Niche Route Extraction Phase
+Early_Lithium_Ion,1991,65.0,28.0,15.0,0.2,Sony Commercial Camcorder Cell Introduction
+Early_Lithium_Ion,2001,78.0,42.0,48.0,12.5,Consumer Portable Electronics Footprint Wave
+Early_Lithium_Ion,2011,88.0,54.0,62.0,45.0,Automotive Fleet EV Scalability Testing Loop
+Early_Lithium_Ion,2021,94.0,38.0,12.0,82.0,Global Resource Mining Extraction Constraint
+Double_Entry_Bookkeeping,1494,62.0,85.0,25.0,2.1,Luca Pacioli Monolithic Summa Publication
+Double_Entry_Bookkeeping,1600,78.0,92.0,45.0,42.0,Dutch East India Venture Capital Scaling
+Double_Entry_Bookkeeping,1850,95.0,98.0,22.0,95.0,Global Industrial Corporate Accounting Base
+The_Printing_Press,1455,88.0,34.0,15.0,0.1,Gutenberg Movable Metal Type Inception
+The_Printing_Press,1517,94.0,72.0,65.0,38.4,Martin Luther Protestant Reformation Velocity
+The_Printing_Press,1650,98.0,95.0,42.0,92.0,Scientific Journal Network Standardization
+The_Scientific_Method,1620,95.0,40.0,22.0,0.1,Francis Bacon Novum Organum Publication
+The_Scientific_Method,1687,98.0,85.0,74.0,18.5,Newton Principia Mathematica Disruption Phase
+The_Scientific_Method,1850,100.0,98.0,52.0,98.0,Universal Industrial R&D Substrate
+Public_Sanitation_Systems,1854,55.0,18.0,12.0,0.5,John Snow London Cholera Pump Map
+Public_Sanitation_Systems,1880,72.0,52.0,68.0,42.0,Great Stink Civil Engineering Clean Up Wave
+Public_Sanitation_Systems,1920,85.0,88.0,45.0,92.0,Urban Demographics Density Stabilization
+Mechanical_Refrigeration,1875,65.0,32.0,18.0,0.4,Linde Ammonia Compressor Industrial Test
+Mechanical_Refrigeration,1905,82.0,58.0,74.0,26.4,Cold Chain Freight Logistics Interconnection
+Mechanical_Refrigeration,1935,92.0,88.0,42.0,88.0,Domestic Appliance Mass Urbanization
+Standardized_Time_Zones,1883,42.0,68.0,25.0,1.2,Railway General Time Convention Accord
+Standardized_Time_Zones,1912,75.0,88.0,62.0,65.0,Paris International Time Conference Grid
+Standardized_Time_Zones,1930,85.0,98.0,32.0,98.0,Universal Temporal Coordination Base

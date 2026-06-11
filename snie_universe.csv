@@ -1,0 +1,69 @@
+Ticker,Sector,MarketCap_B,OpMargin,RD_Intensity,CapEx_to_Assets,Rev_Growth,Ecosystem_Proxy,Type
+NVDA,Semiconductors,3200,0.62,0.11,0.06,1.25,95,Substrate
+MSFT,Tech / Cloud,3150,0.45,0.13,0.14,0.16,98,Substrate
+ASML,Semiconductors,380,0.32,0.15,0.08,0.12,90,Substrate
+AMZN,Cloud/Logistics,1950,0.09,0.14,0.10,0.13,94,Substrate
+GOOGL,Tech/Infra,2100,0.29,0.14,0.11,0.14,92,Substrate
+TSM,Semiconductors,850,0.43,0.08,0.22,0.18,92,Substrate
+AAPL,Consumer Tech,3300,0.30,0.08,0.03,0.05,96,Substrate
+META,Communication,1250,0.38,0.21,0.07,0.22,85,Substrate
+ORCL,Software/Infra,310,0.28,0.15,0.09,0.08,80,Substrate
+ADBE,Software/Creative,220,0.34,0.17,0.04,0.11,78,Substrate
+CRM,Enterprise Soft,280,0.18,0.14,0.03,0.12,76,Substrate
+NOW,Enterprise Soft,150,0.12,0.19,0.04,0.24,75,Substrate
+AMD,Semiconductors,260,0.08,0.21,0.03,0.15,82,Substrate
+QCOM,Semiconductors,210,0.30,0.20,0.05,0.09,85,Substrate
+TXN,Semiconductors,160,0.42,0.15,0.15,0.02,60,Substrate
+IBM,Tech/Consulting,150,0.15,0.07,0.03,0.04,65,Substrate
+INTC,Semiconductors,130,0.05,0.30,0.25,0.03,70,Substrate
+AVGO,Semiconductors,670,0.46,0.14,0.03,0.34,80,Substrate
+PLTR,Software / AI,85,0.16,0.18,0.02,0.24,75,Substrate
+SHOP,Software/Comm,90,0.02,0.22,0.02,0.26,75,Substrate
+SNOW,Software/Cloud,55,-0.30,0.45,0.02,0.32,78,Substrate
+LIN,Basic Materials,210,0.25,0.00,0.11,0.04,50,Extractor
+UNP,Industrial Frt,145,0.40,0.00,0.16,0.02,40,Extractor
+CNI,Industrial Frt,95,0.42,0.00,0.18,0.03,42,Extractor
+CSX,Industrial Frt,70,0.38,0.00,0.15,0.02,38,Extractor
+WM,Waste Mgmt,82,0.18,0.00,0.12,0.06,15,Extractor
+RSG,Waste Mgmt,55,0.19,0.00,0.11,0.06,12,Extractor
+V,Financial Serv,520,0.67,0.00,0.02,0.10,95,Extractor
+MA,Financial Serv,410,0.58,0.00,0.02,0.11,92,Extractor
+JPM,Financial Serv,580,0.42,0.00,0.04,0.08,60,Extractor
+BAC,Financial Serv,290,0.30,0.00,0.03,0.05,55,Extractor
+GS,Financial Serv,140,0.26,0.00,0.02,0.08,50,Extractor
+BLK,Financial Serv,120,0.36,0.00,0.01,0.06,45,Extractor
+BRK-B,Conglomerate,950,0.18,0.00,0.04,0.05,30,Extractor
+LMT,Defense,130,0.12,0.03,0.02,0.05,30,Extractor
+RTX,Defense,150,0.10,0.04,0.03,0.08,35,Extractor
+NOC,Defense,75,0.11,0.03,0.04,0.06,25,Extractor
+GD,Defense,80,0.10,0.02,0.03,0.05,28,Extractor
+BA,Aerospace,110,-0.08,0.06,0.04,0.10,40,Extractor
+GE,Industrials,180,0.11,0.05,0.04,0.12,45,Extractor
+CAT,Machinery,170,0.20,0.04,0.05,0.06,30,Extractor
+DE,Agriculture,105,0.22,0.06,0.06,0.05,35,Extractor
+HON,Conglomerate,130,0.20,0.05,0.03,0.04,40,Extractor
+UPS,Logistics,120,0.10,0.01,0.05,0.03,50,Extractor
+FDX,Logistics,65,0.07,0.01,0.06,0.02,45,Extractor
+XOM,Energy,510,0.12,0.00,0.09,0.01,25,Extractor
+CVX,Energy,280,0.13,0.00,0.11,0.02,22,Extractor
+SHEL,Energy,210,0.14,0.00,0.10,0.03,24,Extractor
+TTE,Energy,160,0.15,0.00,0.12,0.02,20,Extractor
+NEE,Utilities,165,0.24,0.00,0.35,0.07,20,Extractor
+DUK,Utilities,90,0.20,0.00,0.32,0.04,15,Extractor
+SO,Utilities,85,0.22,0.00,0.30,0.05,18,Extractor
+UNH,Healthcare,480,0.08,0.00,0.02,0.12,65,Extractor
+LLY,Healthcare,840,0.32,0.25,0.12,0.26,10,Extractor
+JNJ,Healthcare,360,0.26,0.15,0.04,0.05,45,Extractor
+PFE,Healthcare,160,0.10,0.20,0.07,0.04,30,Extractor
+MRK,Healthcare,310,0.20,0.22,0.06,0.06,35,Extractor
+ABBV,Healthcare,320,0.32,0.14,0.03,0.05,25,Extractor
+TMO,Life Sciences,210,0.18,0.06,0.05,0.04,70,Extractor
+DHR,Life Sciences,180,0.21,0.07,0.04,0.03,65,Extractor
+COST,Cons Staples,380,0.04,0.00,0.02,0.07,20,Extractor
+WMT,Cons Staples,550,0.04,0.00,0.03,0.06,45,Extractor
+PG,Cons Staples,390,0.23,0.03,0.04,0.04,25,Extractor
+KO,Cons Staples,290,0.29,0.03,0.03,0.05,30,Extractor
+PEP,Cons Staples,230,0.14,0.02,0.04,0.04,28,Extractor
+HD,Cons Discret,360,0.14,0.00,0.02,0.04,35,Extractor
+MCD,Cons Discret,200,0.32,0.00,0.08,0.06,20,Extractor
+DIS,Communication,180,0.10,0.05,0.05,0.05,40,Extractor

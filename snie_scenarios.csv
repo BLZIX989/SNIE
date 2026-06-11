@@ -1,0 +1,25 @@
+Ticker,Scenario_Key,Scenario_Name,OpMargin_Mult,RD_Mult,CapEx_Mult,Rev_Growth_Mult,Ecosystem_Mult
+NVDA,cuda_weakens,CUDA abstraction layer weakens via open-source convergence,1.0,1.0,1.0,0.8,0.6
+MSFT,cloud_slows,Azure hyperscale datacenter capex construction peaks,0.8,1.0,0.6,0.7,1.0
+ASML,high_na_fails,High-NA lithography tool adoption delays due to optics alignment,0.7,0.8,1.0,0.5,0.9
+AAPL,hardware_stagnates,iPhone hardware upgrade cycle stalls under consumer optimization,0.8,1.0,0.8,0.5,0.9
+TSM,geopolitical_friction,Taiwan strait maritime insurance premiums spike aggressively,0.6,1.0,0.5,0.6,1.0
+V,crypto_disrupts,Decentralized real-time ledger settlement bypasses card networks,0.7,1.0,1.0,0.5,0.8
+MA,tokenization_drift,Sovereign central bank digital currencies disintermediate processing channels,0.7,1.0,1.0,0.6,0.8
+GOOGL,search_fragmentation,Generative retrieval engines break monetization of core ad inventory,0.7,1.0,0.9,0.7,0.8
+AMZN,logistics_shuck,Global fuel and parcel sorting labor overhead compresses retail loops,0.5,1.0,0.7,0.8,0.9
+META,open_source_ai,Commoditization of fundamental weights collapses proprietary model moats,0.9,0.7,0.8,0.8,0.7
+PLTR,commercial_churn,Enterprise implementation run-rates stall on consulting bottlenecks,0.8,1.0,1.0,0.6,0.8
+AVGO,custom_silicon_drift,Hyperscalers migrate completely to internal sovereign custom ASIC nodes,0.7,0.9,1.0,0.6,0.8
+ORCL,legacy_cloud_stall,Database cloud migration backlog encounters execution contract delays,0.8,1.0,0.8,0.7,0.9
+AMD,mi300_rejection,Downstream cloud nodes experience firmware compatibility faults over clusters,0.6,1.0,1.0,0.5,0.7
+INTC,foundry_bankruptcy,Sovereign subsidy clawbacks freeze advanced domestic fab tool procurement,0.2,0.6,0.4,0.3,0.5
+LLY,glp1_price_cap,Medicare price enforcement and regulatory generic entrants trigger parity,0.4,0.9,0.8,0.4,0.7
+UNH,payer_margin_crush,Sovereign healthcare mandates enforce margin caps on premium processing,0.5,1.0,1.0,0.8,0.8
+LMT,defense_budget_freeze,Sovereign procurement pivot forces multi-year kinetic program delays,0.8,0.8,0.9,0.6,0.9
+RTX,jet_engine_recall,Sub-component metallurgical structural cracks trigger systemic global grounding,0.5,1.0,0.8,0.7,0.8
+LIN,hydrogen_capex_trap,Clean tech transport corridors encounter regulatory permitting paralysis,0.8,1.0,0.5,0.8,0.8
+UNP,freight_rail_strike,Nationwide labor gridlock freezes rail traffic across western corridors,0.3,1.0,0.6,0.4,0.7
+WM,environmental_fine,Systemic hazardous landfill leakage forces localized containment spending,0.7,1.0,0.8,0.9,1.0
+COST,membership_churn,Consumer discretionary wallet contraction forces membership degradation,0.8,1.0,1.0,0.7,0.9
+XOM,crude_demand_shock,Sovereign strategic reserves release depresses front-month physical spot curves,0.4,1.0,0.6,0.2,0.8

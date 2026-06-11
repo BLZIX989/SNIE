@@ -1,0 +1,11 @@
+Asset,Type,Total_Debt_B,Repo_Haircut,Daily_Turnover_B,Is_Sovereign,Ticker_Hook,Debt_Service_Capacity
+US-10Y-Treasury,Sovereign,28000,0.0,620,1,^TNX,4.5
+US-2Y-Treasury,Sovereign,22000,0.0,580,1,^IRX,5.0
+Fannie-Mae-MBS,Agency-MBS,6200,1.5,180,1,MBB,3.5
+Freddie-Mac-MBS,Agency-MBS,5100,1.5,140,1,VMBS,3.2
+MSFT-Corp-Debt,Corp-IG,85,3.0,8,0,LQD,18.5
+XOM-Energy-Bond,Corp-IG,42,3.5,4,0,LQD,12.2
+Ford-Motor-Credit,Corp-HY,110,8.5,12,0,HYG,1.3
+Brazil-Sov-Global,EM-Sovereign,160,6.0,22,1,EMB,1.8
+Turkey-Sov-Dollar,EM-Sovereign,95,12.0,15,1,EMB,1.1
+JPM-Senior-Unsec,Corp-IG,450,4.0,15,0,LQD,2.8
