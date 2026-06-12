@@ -108,7 +108,7 @@ The framework attempts to distinguish value extraction from value enablement.
 Run everything from the project root:
 
 ```bash
-cd "/Users/keithblaze/Desktop/ChatGPT/Project Gamma"
+cd "/Users/Desktop/Project Gamma"
 source .venv/bin/activate
 ```
 
