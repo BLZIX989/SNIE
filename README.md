@@ -53,16 +53,7 @@ Conceptual Model
 
 You can then include:
 
-S=Γ
-2
-	​
-
-×I×
-dt
-dI
-	​
-
-×D
+S=Γ2×I×dt/dI×D
 
 Where:
 
