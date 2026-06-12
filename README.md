@@ -1,3 +1,117 @@
+SNIE: Structural Necessity & Infrastructure Evaluation
+What This Project Is
+
+SNIE is a structural analysis framework designed to identify systems, technologies, companies, and infrastructure layers that occupy critical positions within larger economic and technological networks.
+
+Rather than focusing exclusively on valuation, earnings, momentum, or sentiment, SNIE attempts to measure how deeply a system is embedded within the dependencies of other systems.
+
+The core research question is:
+
+Which technologies become indispensable substrates for future activity, and which remain replaceable participants?
+
+What Problem I Am Trying To Solve
+
+Most investment and forecasting systems evaluate outcomes after they occur.
+
+I wanted to explore whether structural characteristics could identify important systems before market consensus fully recognized them.
+
+Examples include:
+
+Railroads during industrial expansion
+Integrated circuits during computing adoption
+TCP/IP during internet expansion
+Linux within cloud infrastructure
+ASML within semiconductor manufacturing
+NVIDIA within AI compute networks
+
+The objective is not to predict stock prices directly.
+
+The objective is to identify infrastructure layers that appear increasingly difficult to bypass.
+
+Core Concepts
+Necessity
+
+Measures how difficult a system is to replace within its ecosystem.
+
+Reachability Expansion (Γ₂)
+
+Measures how many future states become possible because a system exists.
+
+Invariance (I)
+
+Measures how resilient a system remains across changing environmental conditions.
+
+Density (D)
+
+Measures the concentration of dependencies flowing through a system.
+
+Structural Gravity Index (SGI)
+
+Composite estimate of systemic importance based on the interaction of these variables.
+
+Conceptual Model
+
+You can then include:
+
+S=Γ
+2
+	​
+
+×I×
+dt
+dI
+	​
+
+×D
+
+Where:
+
+Γ₂ = Reachability Expansion
+I = Invariance
+dI/dt = Invariance Momentum
+D = Dependency Density
+
+This equation represents the conceptual architecture used throughout the framework.
+
+What The Software Does
+
+The software:
+
+Pulls live market and system data.
+Stores historical snapshots.
+Tracks changes between runs.
+Calculates structural indicators.
+Generates ranking tables.
+Produces lifecycle and regime analyses.
+Builds visualizations of system evolution through time.
+
+Outputs include:
+
+Structural rankings
+Regime shift detection
+Dependency mapping
+Necessity scoring
+Survivorship analysis
+Historical persistence tracking
+Fixed income monitoring
+Transition probability analysis
+Example Interpretation
+
+A company may score highly even if current revenue growth is modest.
+
+This occurs when the company occupies a critical infrastructure position within a larger dependency network.
+
+Examples:
+
+Semiconductor manufacturing
+Cloud infrastructure
+Payment rails
+Energy transmission
+Industrial logistics
+
+The framework attempts to distinguish value extraction from value enablement.
+
+
 # Project Gamma Run Sheet
 
 Run everything from the project root:
