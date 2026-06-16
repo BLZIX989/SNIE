@@ -1,4 +1,4 @@
-SNIE: Structural Necessity & Infrastructure Evaluation
+SNIE: Stochastic Non-Equilibrium Information/Energy
 
 What This Project Is
 
