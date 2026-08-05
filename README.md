@@ -1,5 +1,4 @@
-SNIE: Stochastic Non-Equilibrium Information/Energy
-
+Structural Necessity Intelligence Engine
 What This Project Is
 
 SNIE is a structural analysis framework designed to identify systems, technologies, companies, and infrastructure layers that occupy critical positions within larger economic and technological networks.
