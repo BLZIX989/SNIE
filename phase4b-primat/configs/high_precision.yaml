@@ -1,0 +1,48 @@
+# Phase 4B — High-precision reference configuration.
+#
+# Source: runfiles/primat_reference_run.py, retrieved from the upstream
+# repository https://github.com/CyrilPitrou/primat at git tag v0.3.1
+# (commit 508c0ea460ff018228b19e6b4398cfa3b9208fb4) -- the exact tag
+# matching the installed pip package version. This file is NOT shipped in
+# the pip wheel (confirmed absent from primat-0.3.1.dist-info/RECORD), so
+# it was retrieved from the matching tagged source rather than
+# reconstructed from memory, per the task's explicit instruction.
+#
+# Docstring quote (verbatim from the retrieved script):
+#   "High-precision reference run for updating validation benchmarks in
+#   CLAUDE.md. This script is NOT intended for routine use. It is designed
+#   to produce the most accurate possible primordial abundances by pushing
+#   all precision parameters to their limits."
+#
+# The script explicitly forces force_backend="python" for all three runs,
+# citing a documented ~1.7e-8 unresolved C-vs-Python D/H gap
+# (tests/test_backend_parity.py) -- the reference values must stay pinned
+# to the Python backend regardless of C-extension availability.
+
+primat_version: "0.3.1"
+source_repo: "https://github.com/CyrilPitrou/primat"
+source_tag: "v0.3.1"
+source_commit: "508c0ea460ff018228b19e6b4398cfa3b9208fb4"
+source_file: "runfiles/primat_reference_run.py"
+
+physical_parameters:
+  Omegabh2: 0.022425   # unchanged from task-mandated baseline value
+
+precision_options:
+  T_start_cosmo_MeV: 100.0
+  sampling_temperature_per_decade: 2000
+  rate_grid_npts: 4000
+  numerical_precision: 1.0e-10
+  sampling_nTOp_per_decade: 125
+  sampling_nTOp_thermal_per_decade: 25
+  vegas_n_eval: 100000
+  vegas_n_itn: 50
+
+output_time_evolution: false
+
+forced_backend: "python"   # as documented in the source script
+
+networks_run:
+  - {label: "small network", network: "small", amax: null}
+  - {label: "large network, amax=8", network: "large", amax: 8}
+  - {label: "large network", network: "large", amax: null}

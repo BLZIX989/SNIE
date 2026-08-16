@@ -1,0 +1,11 @@
+documented_reference_example
+============================
+Neff         = 3.04397730
+YPBBN        = 0.24700740
+YPCMB        = 0.24568106
+DoH          = 2.436623e-05
+He3oH        = 1.039745e-05
+He3oHe4      = 1.267748e-04
+Li7oH        = 5.500432e-10
+
+runtime: 0.468 s

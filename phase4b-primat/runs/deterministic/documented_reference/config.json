@@ -1,0 +1,23 @@
+{
+  "environment": {
+    "has_c_backend": true,
+    "machine": "x86_64",
+    "numpy_version": "2.4.6",
+    "platform": "Linux-6.18.5-fc-v20-x86_64-with-glibc2.39",
+    "primat_version": "0.3.1",
+    "python_version": "3.11.15 (main, Mar  3 2026, 09:26:23) [GCC 13.3.0]",
+    "timestamp_utc": "2026-08-16T21:34:51Z"
+  },
+  "exact_cli_equivalent_command": "primat --Omegabh2 0.02242 --network large --amax 8",
+  "exact_python_invocation": "primat.backend.run_bbn({'Omegabh2': 0.02242, 'network': 'large', 'amax': 8}, force_backend='auto')",
+  "force_backend": "auto",
+  "label": "documented_reference_example",
+  "note": "Reproduction of the WORKED EXAMPLE in the installed package's own README (primat-0.3.1.dist-info/METADATA, 'Command-line interface' section), used only to explain the provenance of the task's boxed reference values. This is NOT the Phase 4B physical baseline.",
+  "params": {
+    "Omegabh2": 0.02242,
+    "amax": 8,
+    "network": "large"
+  },
+  "runtime_seconds": 0.4678361415863037,
+  "source": "primat-0.3.1.dist-info/METADATA"
+}

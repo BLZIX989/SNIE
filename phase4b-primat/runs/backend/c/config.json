@@ -1,0 +1,21 @@
+{
+  "environment": {
+    "has_c_backend": true,
+    "machine": "x86_64",
+    "numpy_version": "2.4.6",
+    "platform": "Linux-6.18.5-fc-v20-x86_64-with-glibc2.39",
+    "primat_version": "0.3.1",
+    "python_version": "3.11.15 (main, Mar  3 2026, 09:26:23) [GCC 13.3.0]",
+    "timestamp_utc": "2026-08-16T21:35:29Z"
+  },
+  "exact_cli_equivalent_command": "primat --Omegabh2 0.022425 --DeltaNeff 0 --backend c",
+  "exact_python_invocation": "primat.backend.run_bbn({'Omegabh2': 0.022425, 'DeltaNeff': 0.0, 'network': 'small'}, force_backend='c')",
+  "force_backend": "c",
+  "label": "backend_c",
+  "params": {
+    "DeltaNeff": 0.0,
+    "Omegabh2": 0.022425,
+    "network": "small"
+  },
+  "runtime_seconds": 0.09432530403137207
+}

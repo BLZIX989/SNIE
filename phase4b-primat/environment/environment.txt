@@ -1,0 +1,79 @@
+PHASE 4B — PRIMAT REPRODUCIBILITY, CONVERGENCE, AND BBN COVARIANCE AUDIT
+Environment Record
+=========================================================================
+
+Execution date/time (UTC):      2026-08-16T21:31:22Z
+Timezone:                       UTC
+Hostname / environment id:      vm (ephemeral cloud container)
+
+Operating system:                Linux
+OS version / kernel:             Linux 6.18.5-fc-v20 #1 SMP PREEMPT_DYNAMIC
+CPU architecture:                x86_64
+CPU model:                       Intel(R) Xeon(R) Processor @ 2.80GHz
+Logical CPUs (nproc):             4
+
+Python version:                  3.11.15
+pip version:                     26.2.1 (upgraded from 24.0 at venv bootstrap)
+Virtual environment path:        /tmp/claude-0/-home-user-SNIE/4e042ac8-4de2-597a-ad6b-a1c9dcedf2f0/scratchpad/primat_check/venv
+  (created solely to isolate this experiment's dependencies; not part of the
+  repository. Re-creatable via: python3 -m venv venv && pip install primat==0.3.1)
+
+PRIMAT version:                  0.3.1  (source: PyPI, wheel
+                                  primat-0.3.1-cp311-cp311-manylinux_2_17_x86_64.
+                                  manylinux2014_x86_64.manylinux_2_28_x86_64.whl)
+PRIMAT install location:         <venv>/lib/python3.11/site-packages/primat
+PRIMAT upstream repository:      https://github.com/CyrilPitrou/primat
+PRIMAT git tag matching install: v0.3.1 (commit 508c0ea460ff018228b19e6b4398cfa3b9208fb4)
+  (cloned read-only into scratch space solely to inspect source-only files
+  not shipped in the pip wheel, e.g. runfiles/primat_reference_run.py and
+  tests/test_backend_parity.py -- used only for documentation lookup, never
+  imported or executed in place of the installed pip package.)
+
+NumPy version:                   2.4.6
+SciPy version:                   1.17.1
+joblib version:                  1.5.3
+plotly version:                  6.9.0 (PRIMAT plotting dependency; unused
+                                  in this numerical audit)
+numba version:                   0.67.0 (installed via `pip install
+                                  "primat[recommended]"` -- required for the
+                                  §9 high-precision reference run: without it
+                                  the documented vegas_n_eval/vegas_n_itn
+                                  thermal-correction settings are silently
+                                  inert and thermal corrections fall back to
+                                  scipy.dblquad, which raised an
+                                  IntegrationWarning ("probably divergent")
+                                  during an initial attempt at that run.
+                                  Installing the documented "recommended"
+                                  extra (README: "vegas -- Recommended --
+                                  Monte Carlo integration for thermal
+                                  weak-rate corrections") is not a
+                                  substituted or invented dependency; it is
+                                  the installed package's own documented
+                                  optional dependency for exactly this use
+                                  case.)
+vegas version:                   6.4.1 (see above)
+gvar version:                    13.1.9 (vegas dependency)
+llvmlite version:                0.49.0 (numba dependency)
+
+C backend (primat._primat_c):    AVAILABLE (HAS_C_BACKEND = True)
+                                  Precompiled C extension shipped in the
+                                  manylinux wheel; no local compilation was
+                                  required or performed for the C backend
+                                  used in this audit.
+Python backend (primat.main):    AVAILABLE (pure-Python fallback, always
+                                  present)
+C compiler (for reference only,
+  not used to build the installed
+  C extension -- precompiled wheel):  gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+
+Git (host tool) version:         git version 2.43.0
+Git commit (blzix989/snie repo,
+  branch claude/primat-env-check-c4foai,
+  HEAD at start of scientific execution): ed93db25f58baf9b255928efe254462d4daf3747
+
+Full package manifest:           see environment/pip_freeze.txt (pip freeze
+                                  output from the exact venv used for every
+                                  run in this audit)
+
+No API keys, credentials, or secrets are recorded in this file or elsewhere
+in this project directory.

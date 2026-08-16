@@ -1,0 +1,45 @@
+# Phase 4B — Fixed-seed Monte Carlo uncertainty propagation configuration.
+
+primat_version: "0.3.1"
+
+physical_parameters:
+  Omegabh2: 0.022425     # boxed task value, matches baseline.yaml
+  DeltaNeff: 0.0          # boxed task value, matches baseline.yaml
+
+nuclear_network:
+  network: "small"        # PRIMATConfig default, matches baseline.yaml
+  amax: null
+
+correction_flags: "PRIMATConfig defaults (all True), matches baseline.yaml"
+numerical_settings: "PRIMATConfig defaults, matches baseline.yaml"
+
+monte_carlo:
+  num_mc: 1000
+  seed: 20260816   # fixed integer seed chosen for this run (YYYYMMDD of
+                   # execution date); the installed documentation
+                   # (primat.main.mc_uncertainty docstring) does not
+                   # prescribe a specific seed value, only that "sample i
+                   # uses seed + i" and that the SAME seed must be reused
+                   # for reproducibility comparisons -- honoured in run2.
+  backend: "python"  # explicitly forced (not "auto"/"c"): the C backend's
+                      # RNG (pthread/xoshiro256**) is documented as not
+                      # bit-for-bit comparable across repeated invocations
+                      # in the same way NumPy's seeded default_rng is, and
+                      # primat.backend's own module docstring states C
+                      # samples are only "statistically, not bit-for-bit,
+                      # comparable" to Python's. Forcing the Python backend
+                      # for both MC runs keeps the sample-level
+                      # reproducibility test (Section 13) well-defined:
+                      # NumPy's default_rng(seed+i) is deterministic given
+                      # a fixed seed on a fixed NumPy version.
+  n_jobs: -1   # all CPUs (joblib), per documented default
+  quantities_saved:
+    - YPBBN
+    - DoH
+    - He3oH
+    - Li7oH
+    - Neff
+  uncertainty_sources_propagated:
+    - "all active nuclear reaction rate offsets p_* ~ N(0,1) independently, for every reaction in the selected network (documented default of primat.main.mc_uncertainty)"
+    - "neutron lifetime tau_n ~ N(cfg.tau_n=878.4, cfg.std_tau_n=0.5) [s] (used since tau_n_normalization=True, the PRIMATConfig default)"
+  uncertainty_sources_excluded: "No uncertainty source beyond the two documented above is added. Omegabh2/DeltaNeff are held fixed (not sampled) per task Section 10."
