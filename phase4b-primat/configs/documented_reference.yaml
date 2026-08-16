@@ -1,0 +1,26 @@
+# Phase 4B — Reproduction of the installed package's own documented
+# worked example (primat-0.3.1.dist-info/METADATA, "Command-line interface"
+# section), used ONLY to explain the provenance of the task's boxed
+# reference values (Neff=3.04397730, YP(BBN)=0.24699808, D/H=2.4365389e-5).
+# This is NOT the Phase 4B physical baseline (see baseline.yaml for that;
+# Omegabh2 differs: 0.02242 here vs the task-mandated 0.022425 in baseline).
+#
+# Exact documented command:
+#   primat --Omegabh2 0.02242 --network large --amax 8
+
+primat_version: "0.3.1"
+source: "primat-0.3.1.dist-info/METADATA (installed package README), section '2. Command-line interface'"
+
+physical_parameters:
+  Omegabh2: 0.02242   # AS DOCUMENTED -- differs from task's boxed 0.022425
+  DeltaNeff: 0.0       # PRIMATConfig default (not overridden in the documented example)
+
+nuclear_network:
+  network: "large"
+  amax: 8
+
+correction_flags: "PRIMATConfig defaults (all True), not overridden in the documented example"
+
+numerical_settings: "PRIMATConfig defaults, not overridden in the documented example"
+
+backend: "auto"

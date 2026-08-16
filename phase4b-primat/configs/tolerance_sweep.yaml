@@ -1,0 +1,11 @@
+# Phase 4B — Numerical tolerance convergence sweep (task Section 7).
+# All physical parameters and all other numerical settings identical to
+# baseline.yaml; only numerical_precision (solve_ivp rtol) varies.
+
+base_config: "baseline.yaml"
+backend: "c"   # fixed explicitly (not "auto") for a controlled sweep: baseline.yaml's
+               # "auto" already resolves to "c" on this installation, so this is the
+               # same effective backend, made explicit so the tolerance sweep is not
+               # accidentally re-resolved differently run to run.
+swept_parameter: "numerical_precision"
+values: [1.0e-6, 1.0e-7, 1.0e-8, 1.0e-9]

@@ -1,0 +1,16 @@
+# Phase 4B — n<->p weak-rate temperature-sampling resolution convergence
+# (task Section 8). All physical parameters and all other numerical
+# settings identical to baseline.yaml; only sampling_nTOp_per_decade
+# varies. Values (80, 160) match the installed package's own documented
+# "Typical workflow for a high-precision study" example
+# (primat-0.3.1.dist-info/METADATA), which uses exactly
+# sampling_nTOp_per_decade=160 as its illustration of a non-default,
+# higher-resolution setting versus the PRIMATConfig default of 80.
+
+base_config: "baseline.yaml"
+backend: "c"   # see tolerance_sweep.yaml for rationale
+swept_parameter: "sampling_nTOp_per_decade"
+values: [80, 160]
+save_nTOp: true   # PRIMATConfig default; each distinct sampling value gets
+                  # its own cache file (fingerprinted), so no cache
+                  # collision between the two runs.

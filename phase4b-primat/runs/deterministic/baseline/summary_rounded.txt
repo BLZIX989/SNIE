@@ -1,0 +1,11 @@
+deterministic_baseline
+======================
+Neff         = 3.04397730
+YPBBN        = 0.24700576
+YPCMB        = 0.24567943
+DoH          = 2.435054e-05
+He3oH        = 1.039810e-05
+He3oHe4      = 1.267839e-04
+Li7oH        = 5.560202e-10
+
+runtime: 0.094 s

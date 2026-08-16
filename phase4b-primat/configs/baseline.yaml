@@ -1,0 +1,45 @@
+# Phase 4B — Deterministic baseline configuration
+# Every value below is the actual installed PRIMAT 0.3.1 PRIMATConfig
+# default, confirmed live via:
+#   python -c "from primat.config import DEFAULT_PARAMS; print(DEFAULT_PARAMS['<key>'])"
+# The only parameters explicitly fixed by the task protocol are Omegabh2
+# and DeltaNeff (boxed values); everything else is left at the installed
+# default ("standard PRIMAT BBN network and standard correction settings"),
+# per task Section 3. No parameter here was invented or reconstructed from
+# memory.
+
+primat_version: "0.3.1"
+
+physical_parameters:
+  Omegabh2: 0.022425          # boxed task value; PRIMATConfig default (unchanged)
+  DeltaNeff: 0.0               # boxed task value; PRIMATConfig default (unchanged)
+  munuOverTnu: 0.0             # PRIMATConfig default (reduced nu chemical potential)
+  tau_n: 878.4                 # PRIMATConfig default neutron lifetime [s] (not modified)
+  std_tau_n: 0.5                # PRIMATConfig default neutron lifetime uncertainty [s]
+
+nuclear_network:
+  network: "small"             # PRIMATConfig default (12-reaction network)
+  amax: null                   # PRIMATConfig default (no mass-number cut)
+
+correction_flags:
+  QED_corrections: true
+  nuclear_qed_corrections: true
+  radiative_corrections: true
+  finite_mass_corrections: true
+  thermal_corrections: true
+  spectral_distortions: true
+  tau_n_normalization: true
+
+numerical_settings:
+  numerical_precision: 1.0e-7          # solve_ivp rtol, PRIMATConfig default
+  sampling_nTOp_per_decade: 80          # n<->p rate grid points/decade, PRIMATConfig default
+  sampling_nTOp_thermal_per_decade: 20  # thermal-correction table points/decade, default
+  sampling_temperature_per_decade: 600  # background grid points/decade, default
+  rate_grid_npts: 1000                  # master T9 grid points, default
+
+backend: "auto"    # PRIMATConfig/CLI default; resolves to "c" since HAS_C_BACKEND=True
+                    # on this installation (confirmed: primat.backend.HAS_C_BACKEND)
+
+output:
+  output_final_result: true
+  output_time_evolution: true
