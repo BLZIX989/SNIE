@@ -1,0 +1,36 @@
+{
+  "environment": {
+    "has_c_backend": true,
+    "machine": "x86_64",
+    "numpy_version": "2.4.6",
+    "platform": "Linux-6.18.5-fc-v20-x86_64-with-glibc2.39",
+    "primat_version": "0.3.1",
+    "python_version": "3.11.15 (main, Mar  3 2026, 09:26:23) [GCC 13.3.0]",
+    "timestamp_utc": "2026-08-16T23:19:30Z"
+  },
+  "exact_cli_equivalent_command": null,
+  "exact_python_invocation": "primat.backend.run_bbn({'verbose': False, 'debug': False, 'show_progress': False, 'T_start_cosmo_MeV': 100.0, 'sampling_temperature_per_decade': 2000, 'rate_grid_npts': 4000, 'numerical_precision': 1e-10, 'sampling_nTOp_per_decade': 125, 'sampling_nTOp_thermal_per_decade': 25, 'vegas_n_eval': 100000, 'vegas_n_itn': 50, 'Omegabh2': 0.022425, 'output_time_evolution': False, 'network': 'large', 'amax': 8}, force_backend='python')",
+  "force_backend": "python",
+  "label": "high_precision_large_amax8",
+  "note": "Reproduction of runfiles/primat_reference_run.py from upstream git tag v0.3.1 (commit 508c0ea460ff018228b19e6b4398cfa3b9208fb4). force_backend='python' as documented in that script.",
+  "params": {
+    "Omegabh2": 0.022425,
+    "T_start_cosmo_MeV": 100.0,
+    "amax": 8,
+    "debug": false,
+    "network": "large",
+    "numerical_precision": 1e-10,
+    "output_time_evolution": false,
+    "rate_grid_npts": 4000,
+    "sampling_nTOp_per_decade": 125,
+    "sampling_nTOp_thermal_per_decade": 25,
+    "sampling_temperature_per_decade": 2000,
+    "show_progress": false,
+    "vegas_n_eval": 100000,
+    "vegas_n_itn": 50,
+    "verbose": false
+  },
+  "runtime_seconds": 40.10045909881592,
+  "source_file": "runfiles/primat_reference_run.py",
+  "source_tag": "v0.3.1"
+}

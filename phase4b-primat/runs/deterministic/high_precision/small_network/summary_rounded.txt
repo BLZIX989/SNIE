@@ -1,0 +1,11 @@
+high_precision_small_network
+============================
+Neff         = 3.04397730
+YPBBN        = 0.24700029
+YPCMB        = 0.24567398
+DoH          = 2.435001e-05
+He3oH        = 1.039811e-05
+He3oHe4      = 1.267877e-04
+Li7oH        = 5.559716e-10
+
+runtime: 2897.419 s
