@@ -42,6 +42,7 @@ def main():
         ("results", "derived_statistic"),
         ("configs", "configuration"),
         ("environment", "environment_record"),
+        ("audit", "audit_output"),
     ]:
         base = os.path.join(ROOT, subdir)
         if not os.path.isdir(base):

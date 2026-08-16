@@ -1,0 +1,108 @@
+{
+  "C_theory": {
+    "matrix": [
+      [
+        1.1373017812197373e-08,
+        -5.094255503024002e-12
+      ],
+      [
+        -5.094255503024002e-12,
+        7.201509595142821e-14
+      ]
+    ],
+    "row_order": [
+      "Yp",
+      "D_H"
+    ],
+    "source": "sample covariance of N=1000 fixed-seed MC run1 (raw/mc_1000_samples.csv), computed independently by scripts/audit.py"
+  },
+  "chi2_analysis": {
+    "C_obs": {
+      "matrix": [
+        [
+          9e-06,
+          0.0
+        ],
+        [
+          0.0,
+          8.409999999999999e-14
+        ]
+      ],
+      "note": "diagonal only -- no observational covariance available (see observational_provenance)",
+      "row_order": [
+        "Yp",
+        "D_H"
+      ]
+    },
+    "C_theory": {
+      "matrix": [
+        [
+          1.1373017812197373e-08,
+          -5.094255503024002e-12
+        ],
+        [
+          -5.094255503024002e-12,
+          7.201509595142821e-14
+        ]
+      ],
+      "row_order": [
+        "Yp",
+        "D_H"
+      ],
+      "source": "sample covariance of N=1000 fixed-seed MC run1 (raw/mc_1000_samples.csv), computed independently by scripts/audit.py"
+    },
+    "C_total": {
+      "matrix": [
+        [
+          9.011373017812198e-06,
+          -5.094255503024002e-12
+        ],
+        [
+          -5.094255503024002e-12,
+          1.561150959514282e-13
+        ]
+      ],
+      "row_order": [
+        "Yp",
+        "D_H"
+      ]
+    },
+    "chi2": 3.867065584162016,
+    "d_observed": {
+      "D_H": 2.508e-05,
+      "Yp": 0.245
+    },
+    "degrees_of_freedom": 2,
+    "likelihood_assumptions": [
+      "Gaussian theory uncertainty, characterized fully by the N=1000 MC sample covariance C_theory (no distributional test beyond mean/covariance was performed).",
+      "Gaussian, uncorrelated (diagonal) observational uncertainty, per the task-specified sigma values; independence between Y_P^obs and (D/H)^obs is assumed only because no observational covariance was supplied -- NOT because independence was verified.",
+      "C_theory and C_obs are added directly (no additional correlation between theory and observational errors assumed).",
+      "chi^2 is reported as a raw statistic; per task Section 15 it is NOT converted to a sigma-level or p-value here, since that conversion requires distributional assumptions (e.g. exact chi^2_2 distribution of the residual) not independently verified in this audit."
+    ],
+    "m_bbn": {
+      "D_H": 2.4347811041082803e-05,
+      "Yp": 0.24699933176892147
+    },
+    "observational_provenance": {
+      "observational_covariance_available": false,
+      "observational_covariance_note": "No Y_P-D/H observational covariance was supplied or is used. Per task Section 14/15, this is an explicit, stated limitation: C_obs is diagonal only.",
+      "publication_version": "NOT INDEPENDENTLY VERIFIED IN THIS AUDIT -- no specific PDG Review of Particle Physics edition/year or section number was supplied with the task's boxed values, and none was looked up or substituted. This is recorded as an explicit provenance limitation, not filled in from memory.",
+      "retrieval_date": "2026-08-16 (date these values were transcribed into this audit from the task instructions, not a PDG access date)",
+      "source": "Value and 1-sigma uncertainty as specified verbatim in the Phase 4B task instructions (Section 14), attributed there to 'the specified PDG primordial abundance values'."
+    },
+    "observational_values": {
+      "DoH": {
+        "sigma": 2.9e-07,
+        "value": 2.508e-05
+      },
+      "YPBBN": {
+        "sigma": 0.003,
+        "value": 0.245
+      }
+    },
+    "residual_d_minus_m": {
+      "D_H": 7.321889589171973e-07,
+      "Yp": -0.001999331768921475
+    }
+  }
+}

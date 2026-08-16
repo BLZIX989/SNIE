@@ -1,0 +1,78 @@
+{
+  "backend_forced": "python",
+  "central_values": {
+    "DoH": 2.4350017823394235e-05,
+    "He3oH": 1.0398028426996804e-05,
+    "Li7oH": 5.560137591124728e-10,
+    "Neff": 3.0439772985579183,
+    "YPBBN": 0.2469987221248526
+  },
+  "environment": {
+    "has_c_backend": true,
+    "machine": "x86_64",
+    "numpy_version": "2.4.6",
+    "platform": "Linux-6.18.5-fc-v20-x86_64-with-glibc2.39",
+    "primat_version": "0.3.1",
+    "python_version": "3.11.15 (main, Mar  3 2026, 09:26:23) [GCC 13.3.0]",
+    "timestamp_utc": "2026-08-16T23:51:12Z"
+  },
+  "exact_python_invocation": "primat.backend.run_mc(1000, ['YPBBN', 'DoH', 'He3oH', 'Li7oH', 'Neff'], params={'Omegabh2': 0.022425, 'DeltaNeff': 0.0, 'network': 'small', 'show_progress': False}, seed=20260816, force_backend='python', n_jobs=-1)",
+  "num_mc": 1000,
+  "params": {
+    "DeltaNeff": 0.0,
+    "Omegabh2": 0.022425,
+    "network": "small",
+    "show_progress": false
+  },
+  "per_sample_rate_lifetime_values_available": false,
+  "per_sample_rate_lifetime_values_note": "primat.main.MCResult / MCQuantityResult (the public run_mc/mc_uncertainty return type, inspected directly in the installed source) exposes only the resulting per-sample OBSERVABLE values (mc[quantity].values), not the underlying per-sample p_* rate offsets or the per-sample tau_n draw. This is a genuine interface limitation, not an omission by this script -- confirmed by reading primat/main.py's mc_uncertainty implementation.",
+  "quantities_requested": [
+    "YPBBN",
+    "DoH",
+    "He3oH",
+    "Li7oH",
+    "Neff"
+  ],
+  "quantities_saved_actual": [
+    "YPBBN",
+    "DoH",
+    "He3oH",
+    "Li7oH",
+    "Neff",
+    "YPCMB",
+    "He3oHe4",
+    "n",
+    "p",
+    "H2",
+    "H3",
+    "He3",
+    "He4",
+    "Li7",
+    "Be7",
+    "He6",
+    "Li8",
+    "Li6",
+    "B8"
+  ],
+  "run_label": "mc_run2",
+  "runtime_seconds": 900.0183312892914,
+  "sample_means": {
+    "DoH": 2.4347811041082844e-05,
+    "He3oH": 1.0397763985786723e-05,
+    "Li7oH": 5.568801683099149e-10,
+    "Neff": 3.043977298557919,
+    "YPBBN": 0.2469993317689212
+  },
+  "sample_stds": {
+    "DoH": 2.682220737662671e-07,
+    "He3oH": 1.2975690632282786e-07,
+    "Li7oH": 1.8096472167574924e-11,
+    "Neff": 8.881784197001252e-16,
+    "YPBBN": 0.00010659101648068274
+  },
+  "seed": 20260816,
+  "uncertainty_sources_propagated": [
+    "all active nuclear reaction rate offsets p_* ~ N(0,1) independently (documented default of primat.main.mc_uncertainty, every reaction in the 'small' network)",
+    "neutron lifetime tau_n ~ N(878.4, 0.5) s (tau_n_normalization=True, PRIMATConfig default)"
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "B8": {
+    "max_abs_diff": 0.0,
+    "n_samples_differing": 0,
+    "n_samples_total": 1000
+  },
+  "Be7": {
+    "max_abs_diff": 0.0,
+    "n_samples_differing": 0,
+    "n_samples_total": 1000
+  },
+  "DoH": {
+    "max_abs_diff": 0.0,
+    "n_samples_differing": 0,
+    "n_samples_total": 1000
+  },
+  "H2": {
+    "max_abs_diff": 0.0,
+    "n_samples_differing": 0,
+    "n_samples_total": 1000
+  },
+  "H3": {
+    "max_abs_diff": 0.0,
+    "n_samples_differing": 0,
+    "n_samples_total": 1000
+  },
+  "He3": {
+    "max_abs_diff": 0.0,
+    "n_samples_differing": 0,
+    "n_samples_total": 1000
+  },
+  "He3oH": {
+    "max_abs_diff": 0.0,
+    "n_samples_differing": 0,
+    "n_samples_total": 1000
+  },
+  "He3oHe4": {
+    "max_abs_diff": 0.0,
+    "n_samples_differing": 0,
+    "n_samples_total": 1000
+  },
+  "He4": {
+    "max_abs_diff": 0.0,
+    "n_samples_differing": 0,
+    "n_samples_total": 1000
+  },
+  "He6": {
+    "max_abs_diff": 0.0,
+    "n_samples_differing": 0,
+    "n_samples_total": 1000
+  },
+  "Li6": {
+    "max_abs_diff": 0.0,
+    "n_samples_differing": 0,
+    "n_samples_total": 1000
+  },
+  "Li7": {
+    "max_abs_diff": 0.0,
+    "n_samples_differing": 0,
+    "n_samples_total": 1000
+  },
+  "Li7oH": {
+    "max_abs_diff": 0.0,
+    "n_samples_differing": 0,
+    "n_samples_total": 1000
+  },
+  "Li8": {
+    "max_abs_diff": 0.0,
+    "n_samples_differing": 0,
+    "n_samples_total": 1000
+  },
+  "Neff": {
+    "max_abs_diff": 0.0,
+    "n_samples_differing": 0,
+    "n_samples_total": 1000
+  },
+  "YPBBN": {
+    "max_abs_diff": 0.0,
+    "n_samples_differing": 0,
+    "n_samples_total": 1000
+  },
+  "YPCMB": {
+    "max_abs_diff": 0.0,
+    "n_samples_differing": 0,
+    "n_samples_total": 1000
+  },
+  "n": {
+    "max_abs_diff": 0.0,
+    "n_samples_differing": 0,
+    "n_samples_total": 1000
+  },
+  "p": {
+    "max_abs_diff": 0.0,
+    "n_samples_differing": 0,
+    "n_samples_total": 1000
+  }
+}
